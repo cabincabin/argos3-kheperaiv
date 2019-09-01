@@ -41,8 +41,8 @@ const CVector3 KHEPERAIV_LEDS_OFFSET[3] = {
 
 const Real KHEPERAIV_LIDAR_ELEVATION          = KHEPERAIV_BASE_TOP;
 const Real KHEPERAIV_LIDAR_SENSORS_FAN_RADIUS = KHEPERAIV_BASE_RADIUS;
-const CRadians KHEPERAIV_LIDAR_ANGLE_SPAN(ToRadians(CDegrees(210.0)));
-const CRange<Real> KHEPERAIV_LIDAR_SENSORS_RING_RANGE(0.02, 4.0);
+const CRadians KHEPERAIV_LIDAR_ANGLE_SPAN(ToRadians(CDegrees(240.0)));//210.0, 69.4
+const CRange<Real> KHEPERAIV_LIDAR_SENSORS_RING_RANGE(0.02, 1.0);//4, 1
 
 /****************************************/
 /****************************************/
